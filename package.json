@@ -1,0 +1,13 @@
+{
+  "name": "node.js-repository",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch aula02/src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
