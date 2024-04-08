@@ -4,7 +4,7 @@
 
 // Digamos que esse arquivo tenha 1 milhão de linhas, se tentarmos ler ele de uma vez, o servidor pode travar por falta de memória.
 
-// Com o streams, podemos ler o arquivo de forma assíncrona, sem a necessidade de carregar todo o arquivo na memória.
+// Com o streams, podemos ler o arquivo de forma assíncrona, sem a necessidade de carregar todos os arquivos na memória.
 
 // Enquanto o arquivo é lido/processado, ele é dividido em pedaços (chunks) e esses pedaços são processados conforme são lidos.
 
